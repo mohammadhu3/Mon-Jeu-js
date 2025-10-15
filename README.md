@@ -14,8 +14,7 @@ Chaque partie se joue jusqu’à 10 points.
 Ce jeu permet de pratiquer la logique, les fonctions, les conditions et la manipulation du DOM en JavaScript.
 
  Comment utiliser le projet ?
-1. Ouvrir le jeu en ligne :  
-   [https://mohammadhu3.github.io/Mon-Jeu-js/](https://mohammadhu3.github.io/Mon-Jeu-js/)
+1. Ouvrir le jeu en ligne : [https://mohammadhu3.github.io/Mon-Jeu-js/](https://mohammadhu3.github.io/Mon-Jeu-js/)
 2. Choisir un élément (Feu, Eau ou Terre).
 3. Le résultat s’affiche instantanément avec les scores mis à jour.
 4. Le premier à atteindre 10 points gagne la manche.
