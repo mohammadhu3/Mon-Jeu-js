@@ -14,8 +14,8 @@ Fonctionnalités
 
  Technologies utilisées
 - HTML5 pour la structure de la page  
-- CSS3 pour la mise en forme et les effets visuels (dégradés, ombres, animations)  
-- JavaScript (ES6) pour la logique du jeu et la manipulation du DOM  
+- CSS pour la mise en forme et les effets visuels (dégradés, ombres, animations)  
+- JavaScript pour la logique du jeu et la manipulation du DOM  
 - Font Awesome pour les icônes  
 - Google Fonts (Poppins) pour la typographie
 
@@ -24,6 +24,6 @@ Fonctionnalités
 - assets/css/style.css : feuille de style  
 - assets/js/script.js : logique du jeu et interactions
 
-# Objectif
+Objectif
 Pratiquer la logique, les conditions et la manipulation du DOM en JavaScript tout en réalisant un petit jeu web interactif.
 
