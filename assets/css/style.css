@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top, #1a1f3c, #0b0f2a);
+  color: #fff;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  padding: 2rem 1rem 1rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  background: linear-gradient(90deg, #ff512f, #dd2476, #007bff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.subtitle {
+  color: #a0a6d8;
+  font-size: 1rem;
+  margin-top: 0.4rem;
+}
+
+.game {
+  max-width: 600px;
+  margin: 2rem auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.btn i {
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}
+
+.feu {
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+}
+
+.eau {
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+}
+
+.terre {
+  background: linear-gradient(45deg, #8bc34a, #4caf50);
+}
+
+.reset {
+  margin-top: 1.5rem;
+  background: linear-gradient(45deg, #ff9800, #ff5722);
+}
+
+.reset:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.interractions {
+  margin: 1.5rem 0;
+  font-size: 1.1rem;
+  color: #ffd86b;
+  animation: glow 2s infinite alternate;
+  white-space: pre-line;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #ffcc00;
+  }
+  to {
+    text-shadow: 0 0 20px #ffee80;
+  }
+}
+
+.scoreboard {
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  padding: 1rem;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.scoreboard p {
+  margin: 0.4rem;
+}
+
+footer {
+  padding: 1rem;
+  color: #aaa;
+  font-size: 0.9rem;
+}
