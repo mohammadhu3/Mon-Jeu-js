@@ -33,12 +33,12 @@ Projet créé par Mohammad en utilisant **HTML**, **CSS** et **JavaScript**.
 
 
  Technologies utilisées
-- **HTML5** – structure du projet  
-- **CSS3** – mise en forme, dégradés, ombres et animations légères  
-- **JavaScript (ES6)** – logique du jeu et manipulation du DOM  
-- **Font Awesome** – icônes pour les éléments (feu, eau, terre, etc.)  
-- **Google Fonts (Poppins)** – typographie moderne et lisible  
-- **Responsive Design** – compatible mobile, tablette et ordinateur  
+- HTML5  structure du projet  
+- CSS3  mise en forme, dégradés, ombres et animations légères  
+- JavaScript (ES6)** – logique du jeu et manipulation du DOM  
+- Font Awesome** – icônes pour les éléments (feu, eau, terre, etc.)  
+- Google Fonts (Poppins)** – typographie moderne et lisible  
+- Responsive Design** – compatible mobile, tablette et ordinateur  
 
 
 Structure du projet
