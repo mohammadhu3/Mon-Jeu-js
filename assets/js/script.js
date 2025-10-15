@@ -97,6 +97,5 @@ style.textContent = `
   .win { color: #00ff9d; text-shadow: 0 0 8px #00ff9d; font-weight: bold; }
   .lose { color: #ff3b3b; text-shadow: 0 0 8px #ff3b3b; font-weight: bold; }
   .draw { color: #ffd86b; text-shadow: 0 0 8px #ffd86b; font-weight: bold; }
-  .neutral { color: #a0b1ff; }
-`;
+  .neutral { color: #a0b1ff; }`;
 document.head.appendChild(style);
