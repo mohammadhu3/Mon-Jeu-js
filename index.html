@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Jeu Feu Eau Terre</title>
+  <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+  <header>
+    <h1> Jeu Feu  Eau  Terre </h1>
+    <p class="subtitle">
+      Affronte l’ordinateur et deviens le maître des éléments !
+    </p>
+  </header>
+
+  <main>
+    <section class="game">
+      <div class="buttons">
+        <button class="btn feu bouton-feu">
+          <i class="fa-solid fa-fire"></i> Feu
+        </button>
+        <button class="btn eau bouton-eau">
+          <i class="fa-solid fa-droplet"></i> Eau
+        </button>
+        <button class="btn terre bouton-terre">
+          <i class="fa-solid fa-mountain"></i> Terre
+        </button>
+      </div>
+      <p class="interractions">Choisissez un élément...</p>
+      <div class="scoreboard">
+        <p> Parties : <span class="partie-number">0</span></p>
+        <p> Gagnées : <span class="score-user">0</span></p>
+        <p>Perdues : <span class="score-computer">0</span></p>
+      </div>
+      <button class="btn reset bouton-rejouer" disabled>
+        <i class="fa-solid fa-rotate-right"></i> Rejouer
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 – Projet FOAD – Jeu Feu / Eau / Terre</p>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
