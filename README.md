@@ -5,7 +5,7 @@ Le joueur affronte l’ordinateur à travers trois éléments : feu, eau et terr
 Le feu bat la terre, l’eau bat le feu et la terre bat l’eau.  
 Le premier à atteindre dix points gagne la partie.
 
-#Fonctionnalités
+Fonctionnalités
 - Interface simple, moderne et responsive
 - Système de score et limitation à 10 points
 - Affichage des résultats après chaque tour
