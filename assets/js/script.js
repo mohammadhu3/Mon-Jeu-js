@@ -56,13 +56,13 @@ function theWinnerIs(userChoice) {
   <i class="fa-solid fa-user"></i> Vous : <strong>${tabName[userChoice]}</strong><br>Résultat : `;
 
   if (computerChoice === userChoice) {
-    str += `<span class="draw">Égalité 🤝</span>`;
+    str += `<span class="draw">Égalité </span>`;
   } else if (testWinner(computerChoice, userChoice)) {
     partiesPerdues++;
-    str += `<span class="lose">L'ordinateur a gagné 🤖</span>`;
+    str += `<span class="lose">L'ordinateur a gagné </span>`;
   } else if (testWinner(userChoice, computerChoice)) {
     partiesGagnes++;
-    str += `<span class="win">Vous avez gagné 🎉</span>`;
+    str += `<span class="win">Vous avez gagné </span>`;
   }
 
   partiesJouer++;
@@ -75,9 +75,9 @@ function theWinnerIs(userChoice) {
     boutonRejouer.disabled = false;
 
     if (partiesGagnes === 10)
-      str += `<br><span class="win">Vous avez remporté la manche 🏆</span>`;
+      str += `<br><span class="win">Vous avez remporté la manche </span>`;
     else
-      str += `<br><span class="lose">Vous avez perdu la manche 💀</span>`;
+      str += `<br><span class="lose">Vous avez perdu la manche </span>`;
   } else {
     computerChoice = powerPc();
     str += `<br><span class="neutral">Essayez encore...</span>`;
